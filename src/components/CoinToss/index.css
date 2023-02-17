@@ -1,0 +1,60 @@
+.bgContainer {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 160px;
+  margin: 15px;
+}
+.head {
+  color: #a35200;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 600px;
+}
+.para {
+  color: #334155;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: 0px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 80px;
+  height: 30px;
+}
+.countContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 250px;
+  margin-top: 18px;
+}
+.para1 {
+  color: #334155;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
